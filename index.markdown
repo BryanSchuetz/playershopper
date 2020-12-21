@@ -115,7 +115,7 @@ layout: default
         },
         templates: {
           header: '<h3 class="is-size-5 mb-3" style="display: block;">Worn Location</h3>',
-          item: '<button class="button is-outlined is-link">+{{label}} <span class="count"> ({{ count }} items)</span></button>'
+          item: '<button class="button is-outlined is-link">{{label}} <span class="count"> ({{ count }} items)</span></button>'
         }
       })
     );
